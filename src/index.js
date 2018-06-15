@@ -9,10 +9,7 @@ import {
   hex,
   letter,
   buffer,
-  string,
-  n,
-  pickone,
-  pickset
+  string
 } from "./methods";
 
 /** @type {number} */
@@ -37,8 +34,5 @@ export {
   hex,
   letter,
   buffer,
-  string,
-  n,
-  pickone,
-  pickset
+  string
 };
