@@ -130,11 +130,11 @@ function pad(number, width, pad = "0") {
     : new Array(width - number.length + 1).join(pad) + number;
 }
 
-/** @type {any} */
-let base64 = function() {
-  throw new Error("No base64 encoder available");
-};
-
+// /** @type {any} */
+// let base64 = function() {
+//   throw new Error("No base64 encoder available");
+// };
+let base64;
 if (typeof btoa === "function") {
   base64 = btoa;
 } else if (typeof Buffer === "function") {

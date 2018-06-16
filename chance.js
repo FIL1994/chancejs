@@ -75,7 +75,7 @@
     Chance.prototype.VERSION = "1.0.16";
 
     // Random helper functions
-    function initOptions(options, defaults) {
+    function initOptions(options = {}, defaults) {
         options = options || {};
 
         if (defaults) {

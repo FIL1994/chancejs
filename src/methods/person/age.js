@@ -1,7 +1,7 @@
 import { initOptions } from "../../helpers";
 import { natural } from "../../";
 
-const age = (options) => {
+export default (options) => {
     options = initOptions(options);
     var ageRange;
 
@@ -28,5 +28,3 @@ const age = (options) => {
 
     return natural(ageRange);
 }
-
-export default age;

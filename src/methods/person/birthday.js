@@ -1,10 +1,9 @@
 import { date } from "../time";
+import { age as ranAge } from "../person";
 import { initOptions } from "../../helpers";
-import { age } from "../person";
 
-
-const birthday = (options) => {
-    var age = age(options);
+export default (options) => {
+    var age = ranAge(options);
     var currentYear = new Date().getFullYear();
 
     if (options && options.type) {
@@ -25,5 +24,3 @@ const birthday = (options) => {
 
     return date(options);
 }
-
-export default birthday;

@@ -1,7 +1,7 @@
 import { integer, natural } from "../..";
 import { initOptions } from "../../helpers";
-import get from "../get";
-import { hour, month, minute, millisecond, second, year } from "./";
+import { get } from "../utils";
+import { hour, month, minute, millisecond, second, year } from "../time";
 
 /** @returns {Date | string} */
 const date = (options) => {

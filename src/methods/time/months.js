@@ -1,3 +1,3 @@
-import get from "../get";
+import { get } from "../utils";
 
 export default () => get("months");

@@ -8,5 +8,7 @@ import month from "./month";
 import months from "./months";
 import second from "./second";
 import year from "./year";
+import timestamp from "./timestamp";
+import weekday from "./weekday";
 
-export {date, ampm, hammertime, hour, millisecond, minute, second, month, months, year};
+export {date, ampm, hammertime, hour, millisecond, minute, second, month, months, year, timestamp, weekday};

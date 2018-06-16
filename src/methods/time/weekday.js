@@ -1,4 +1,5 @@
 import { initOptions } from "../../helpers";
+import { pickone } from "../utils";
 
 const weekday = (options) => {
     options = initOptions(options, {weekday_only: false});
@@ -7,5 +8,7 @@ const weekday = (options) => {
         weekdays.push("Saturday");
         weekdays.push("Sunday");
     }
-    return this.pickone(weekdays);
+    return pickone(weekdays);
 }
+
+export default weekday

@@ -1,4 +1,4 @@
-import pick from "../pick";
+import { pick } from "../utils";
 import { months } from "./";
 import { initOptions, testRange } from "../../helpers";
 

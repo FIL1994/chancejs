@@ -1,6 +1,7 @@
 import { initOptions, capitalize } from "../../helpers";
 import { natural } from "../..";
 import { n } from "..";
+import { word } from "./"; 
 
 const sentence = options => {
   options = initOptions(options);
