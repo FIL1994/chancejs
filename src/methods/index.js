@@ -13,6 +13,7 @@ import buffer from "./buffer";
 import string from "./string";
 import n from "./n";
 import pickone from "./pickone";
+import pickset from "./pickset";
 
 export {
   bool,
@@ -32,3 +33,7 @@ export {
   pickone,
   pickset
 };
+
+export * from "./text";
+export * from "./person";
+export * from "./time";

@@ -1,6 +1,6 @@
 import { initOptions } from "../../helpers";
-import { natural, sentence } from "../..";
-import { n } from "..";
+import { sentence } from "../text";
+import { n, natural } from "..";
 
 const paragraph = options => {
   options = initOptions(options);
@@ -10,3 +10,5 @@ const paragraph = options => {
 
   return sentence_array.join(" ");
 };
+
+export default paragraph;
