@@ -38,7 +38,7 @@
     "webpack-cli": "^3.0.6"
   },
   "scripts": {
-    "test": "gulp travis"
+    "test": "ava"
   },
   "keywords": [
     "chance",

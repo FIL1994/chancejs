@@ -1,8 +1,6 @@
 import test from 'ava'
-import Chance from '../chance.js'
+import * as chance from '../dist/main';
 import _ from 'lodash'
-
-const chance = new Chance()
 
 // chance.sentence()
 test('sentence() returns a random sentence', t => {
