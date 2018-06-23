@@ -1,8 +1,6 @@
 import test from 'ava'
-import Chance from '../chance.js'
+import * as chance from '../dist/main.js'
 import _ from 'lodash'
-
-const chance = new Chance()
 
 const timeout = (seconds) => {
   new Promise((resolve, reject) => {
