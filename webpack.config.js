@@ -4,8 +4,8 @@ module.exports = {
   plugins: [new webpack.ProgressPlugin()],
   mode: "development",
   output: {
-    filename: "chance",
-    library: "chance",
+    filename: "super-chance.js",
+    library: "super-chance",
     libraryTarget: "commonjs2"
   }
 };
