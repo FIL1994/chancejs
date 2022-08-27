@@ -11,3 +11,4 @@ public
 npm-debug.log
 .nyc_output/
 _docpress
+dist
