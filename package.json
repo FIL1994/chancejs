@@ -1,5 +1,5 @@
 {
-  "name": "chance",
+  "name": "super-chance",
   "main": "./chance.js",
   "version": "1.0.16",
   "description": "Chance - Utility library to generate anything random",
